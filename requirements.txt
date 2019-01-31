@@ -1,1 +1,3 @@
 Flask
+coverage==4.0.3
+coveralls
