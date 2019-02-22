@@ -16,9 +16,5 @@ dev:
 	export FLASK_ENV=development; \
 	flask run
 
-run:
-	. ./p3_7env/bin/activate; \
-	export FLASK_APP=flask_app; \
-	flask run
 
-.PHONY: init test run
+.PHONY: init test dev
