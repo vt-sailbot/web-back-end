@@ -20,3 +20,6 @@ def create_app(test_config=None):
     apply_routes(app)
 
     return app
+
+
+app = create_app()
